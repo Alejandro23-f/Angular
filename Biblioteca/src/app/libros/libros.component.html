@@ -1,0 +1,26 @@
+ 
+ <table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">id</th>
+        <th scope="col">Titulo</th>
+        <th scope="col">Autor</th> 
+        <th scope="col">Eliminar</th> 
+      </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let book of booksList; let i = index">
+            <td>{{ book.id }}</td>
+            <td>{{ book.titulo }}</td>
+            <td>{{ book.autor }}</td> 
+             
+        <td>  
+            <button class="btn" (click) = "deletebook(i)"><i class="fa fa-trash"></i></button>
+        </td>
+      </tr>
+    </tbody>
+</table>
+
+<app-anadir-nuevo (bookEvent) = "reciveBook($event)"></app-anadir-nuevo> 
+

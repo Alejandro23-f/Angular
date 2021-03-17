@@ -1,0 +1,39 @@
+[
+    {
+       "id":"1",
+       "titulo":"El extranjero",
+       "autor":"Albert Camus",
+       "descripcion":" Camus masterfully portrays the indolence of the twentieth century man, a man who does not find his place, a foreigner in his own world. This skeptical and dispassionate character who has abandoned his status as an autonomous subject is still today an essential literary reference and existential."
+    },
+    {
+       "id":"2",
+       "titulo":"El idiota",
+       "autor":"Fiodor Dostoievski",
+       "descripcion":"Fyodor Dostoevsky",
+       "description": "In any case, the strength of the novel lies in placing a candid, intelligent character and at the same time weighed down by a mental deficit, generous and at peace with himself and with the adversities of destiny, in a society not so much frivolous and materially overturned as unhinged by doubt, anxiety and dissatisfaction"
+    },
+    {
+       "id":"3",
+       "titulo":"El lobo estepario",
+       "autor":"Herman Hesse",
+       "descripcion":"Being lonely and incommunicado, strange and strange, Harry Haller, the protagonist of this emblematic novel, has ended up becoming a literary archetype in which those who suffer from the dehumanizing effects of a society that does not know solidarity and propitious are recognized. isolation"
+    },
+    {
+       "id":"4",
+       "titulo":"El arte de la guerra",
+       "autor":"Sun Tzu",
+       "descripcion":"Conceived by a Chinese warrior-philosopher about 2,500 years ago, the text is aimed at those who aspire to emerge victorious from a war conflict. What is the best way to achieve this and what role does combat itself play? in this process, if he has any? What are the powers and limits of the commanding general? How can you win without going to war?"
+    },
+    {
+       "id":"5",
+       "titulo":"Levantado del suelo",
+       "autor":"José Saramago",
+       "descripcion":"In rural Portugal, masterfully depicted in the history of an Alentejo family from 1910 to 1979, including the Carnation Revolution, we witness a picture of ignorance, poverty and submission, described with piercing bitterness, that it takes from the uprisings and occupations of farms in the early twentieth century to hope, finally fleeting for the characters, in the April revolution."
+    },
+    {
+       "id":"6",
+       "titulo":"Biografía del silencio",
+       "autor":"Pablo d'ORS",
+       "descripcion":"A year of persistent meditation, or even a half, is enough to realize that one can live differently. Meditation cracks the structure of our personality until, from meditating so much, the crack widens and the old personality it breaks and, like a flower, a new one begins to grow."
+    }
+ ]

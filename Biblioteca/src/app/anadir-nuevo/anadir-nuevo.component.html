@@ -1,0 +1,51 @@
+<form class="form">
+  <div class="form-group">
+    <label for="Titulo">Titulo</label>
+    <input type="text" class="form-control is-invalid" id="Titulo"  [(ngModel)] = "titulo" [ngModelOptions]="{standalone: true}" placeholder="Ingrese el Título" required>
+    <div class="invalid-feedback">
+      Proporcione un Titulo válido
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="Autor">Autor</label>
+    <input type="text" class="form-control is-invalid" id="Autor" [(ngModel)] = "autor"  [ngModelOptions]="{standalone: true}" placeholder="Ingrese el Autor" required>
+    <div class="invalid-feedback">
+      Proporcione un Autor válido
+    </div>
+  </div>
+ 
+<div class="form-group">
+  <label for="descripcion">Descripcion</label>
+  <input type="text" class="form-control" id="descripcion" [(ngModel)] = "descripcion" [ngModelOptions]="{standalone: true}" placeholder="Ingrese el Descripcion">
+</div>
+   
+  <button  type="submit" class="btn btn-primary" (click)="sendBook() ; $event.preventDefault()">Add</button>
+</form>
+
+
+
+ 
+<!-- <table class="table">
+  <thead class=" ">
+    <tr>
+      <th scope="col">id</th>
+      <th scope="col">Hotel Name</th>
+      <th scope="col">Address</th> 
+      <th scope="col">Eliminar</th> 
+    </tr>
+  </thead>
+
+  <tbody>
+      <tr *ngFor="let book of booksList1; let i = index">
+          <td>{{ book.id }}</td>
+          <td>{{ book.titulo }}</td>
+          <td>{{ book.autor }}</td> 
+           
+      <td>  
+          <button class="btn" (click) = "deletebook(i)"><i class="fa fa-trash"></i></button>
+      </td>
+    </tr>
+  </tbody>
+</table> -->
+
+
